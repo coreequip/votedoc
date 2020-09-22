@@ -1,0 +1,4 @@
+node_modules
+dist
+.idea/**
+!.idea/icon_dark.png

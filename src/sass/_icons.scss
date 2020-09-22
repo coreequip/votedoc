@@ -1,0 +1,42 @@
+i[class^="ic-"]:before, i[class*=" ic-"]:before, .has-icon:before {
+    font-family: icons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.has-icon:before {
+    padding-right: .5em;
+}
+
+.ic-caret-left:before {
+    content: "\f101";
+}
+.ic-caret-right:before {
+    content: "\f102";
+}
+.ic-chevron-left:before {
+    content: "\f103";
+}
+.ic-cloud-upload:before {
+    content: "\f104";
+}
+.ic-cog:before {
+    content: "\f105";
+}
+.ic-expand:before {
+    content: "\f106";
+}
+.ic-trash:before {
+    content: "\f107";
+}
+.ic-user-minus:before {
+    content: "\f108";
+}
+.ic-user-plus:before {
+    content: "\f109";
+}

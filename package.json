@@ -1,0 +1,34 @@
+{
+  "name": "votedoc",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Easy mobile interface to vote documentation",
+  "private": true,
+  "repository": {
+    "url": "https://example.com",
+    "type": "github"
+  },
+  "dependencies": {
+    "preact": "^10.5.14"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@rollup/plugin-replace": "^3.0.0",
+    "html-minifier": "^4.0.0",
+    "node-sass": "^6.0.1",
+    "rollup": "^2.55.1",
+    "rollup-plugin-cleandir": "^1.0.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-serve": "^1.1.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "gen-font": "npx icon-font-generator font-gen/*.svg --height 128 --types woff2 -p ic -n icons -o ./src/assets --csspath ./src/sass/_icons.scss --csstp ./font-gen/scss-template.hbs -j false --html false"
+  }
+}
