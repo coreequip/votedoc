@@ -34,7 +34,7 @@ export default {
         }),
         scss({
             output: (style) => global.generatedStyle = style,
-            outputStyle: production ? 'compressed' : 'nested',
+            outputStyle: production ? 'compressed' : 'expanded',
             watch: 'src/sass'
         }),
         production && cleandir(DEST),
